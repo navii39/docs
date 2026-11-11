@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "Mintlify Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -9,15 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -31,7 +22,31 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "dropdowns": [
+      {
+        "dropdown": "General Community Information",
+        "pages": [
+          "index",
+          "frequently-asked-questions",
+          "quickstart",
+          "discord-booster-perks",
+          "ban-appeals"
+        ]
+      },
+      {
+        "dropdown": "Staffing Infomation",
+        "pages": [
+          "staffing-code-of-conduct",
+          "chain-of-command",
+          "document-guidelines",
+          "restaurant-recipes",
+          "moderator-appropriate-actions",
+          "management-commands",
+          "executive-responsiblities"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -68,5 +83,16 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "styling": {
+    "codeblocks": "dark"
+  },
+  "thumbnails": {
+    "preset": "headline",
+    "appearance": "dark",
+    "surface": "brand"
   }
 }
