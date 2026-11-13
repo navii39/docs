@@ -4,7 +4,7 @@
   "name": "Wingin' It",
   "colors": {
     "primary": "#107937",
-    "light": "#528761",
+    "light": "#5C8367",
     "dark": "#15803D"
   },
   "navigation": {
@@ -84,7 +84,7 @@
     }
   },
   "icons": {
-    "library": "fontawesome"
+    "library": "lucide"
   },
   "styling": {
     "codeblocks": "dark"
