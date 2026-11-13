@@ -97,5 +97,8 @@
   "favicon": {
     "light": "/images/Group65.png",
     "dark": "/images/Group5.png"
+  },
+  "fonts": {
+    "family": "Lexend"
   }
 }
