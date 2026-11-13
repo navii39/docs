@@ -84,7 +84,7 @@
     }
   },
   "icons": {
-    "library": "lucide"
+    "library": "fontawesome"
   },
   "styling": {
     "codeblocks": "dark"
