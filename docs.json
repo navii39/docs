@@ -93,5 +93,9 @@
     "preset": "headline",
     "appearance": "dark",
     "surface": "brand"
+  },
+  "favicon": {
+    "light": "/images/Group65.png",
+    "dark": "/images/Group5.png"
   }
 }
